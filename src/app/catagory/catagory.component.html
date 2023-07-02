@@ -1,0 +1,16 @@
+<h1 style="color: aqua;"> welcome to the category component !!!</h1>>
+
+<form #myForm="ngForm" (ngSubmit)="onsubmet()">
+    <label >
+       id:
+    </label>
+<input type="text" name="id" [(ngModel)]="cat.id" >
+
+<label >
+    name:
+ </label>
+<input type="text" name="name" [(ngModel)]="cat.name" >
+<input type="submit" value="send data" >
+</form>
+
+//ngform is atemplete driven 

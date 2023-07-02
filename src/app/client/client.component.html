@@ -1,0 +1,25 @@
+<h1 style="color: aqua;"> welcome to the login component !!!</h1>>
+
+<form [formGroup]="myform" (ngSubmit)="onsumbit()">
+<div>
+    <label> name:</label>
+    <input type="text"   formControlName="name"  >
+</div>
+<div>
+    <label> age:</label>
+    <input type="text"   formControlName="age"  >
+</div>
+<div>
+    <label> addres:</label>
+    <input type="text"   formControlName="adress"  >
+</div>
+<div>
+    <label> job:</label>
+    <input type="text"   formControlName="job"  >
+</div>
+
+#create table 
+
+
+<input type="submit" value="send data">
+</form>
